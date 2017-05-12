@@ -1,0 +1,46 @@
+Allocating  void* a , size=20480
+Average hole size = 1028092.0 [1028092/1]
+start of the chunk a: 4
+End of the chunk a: 20484
+
+Allocating  void* b , size=30720
+Average hole size = 997368.0 [997368/1]
+start of the chunk b: 20488
+End of the chunk b: 51208
+
+Allocating  void* c , size=15360
+Average hole size = 982004.0 [982004/1]
+start of the chunk c: 51212
+End of the chunk c: 66572
+
+Allocating  void* d , size=25600
+Average hole size = 956400.0 [956400/1]
+start of the chunk d: 66576
+End of the chunk d: 92176
+
+Allocating  void* e , size=35840
+Average hole size = 920556.0 [920556/1]
+start of the chunk e: 92180
+End of the chunk e: 128020
+
+Allocating  void* f , size=35840
+Average hole size = 884712.0 [884712/1]
+start of the chunk f: 128024
+End of the chunk f: 163864
+
+Allocating  void* g , size=25600
+Average hole size = 859108.0 [859108/1]
+start of the chunk g: 163868
+End of the chunk g: 189468
+
+Freeing  b , size=30720
+Average hole size = 444916.0 [889832/2]
+Freeing  d , size=25600
+Average hole size = 305145.3 [915436/3]
+Freeing  f , size=35840
+Average hole size = 237820.0 [951280/4]
+Allocating  void* h , size=25600
+Average hole size = 231419.0 [925676/4]
+start of the chunk h: 189472
+End of the chunk h: 215072
+

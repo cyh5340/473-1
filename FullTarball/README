@@ -1,0 +1,24 @@
+project 2	memory management
+name		Crystal Ho
+ID		cyh5340
+
+
+description	This project is about writing a memory management system in order to control a chunk of given memory.
+		The way of controlling the memory is to manually allocate spaces on the given given memory by returing the address.
+		There are four ways of managing the memory:
+		
+		First Fit:	whenever there is an request, return the first hole you find on the memory.
+				I did this by a single for loop.
+
+		Best Fit:	Whenever there is an request, return the smallest hole that can fit.
+				I did this by a single for loop with a IF statement
+
+		Worst Fit:	Whenever there is an request, return the biggest hole that can fit.
+				I did this by a single for loop with a IF statement
+
+		Buddy system:	Based on the first request, divide the chunk of memory by the power of 2
+				First, I find the smallest power of 2 that is greater than the first memory request size,
+				then I divide the chunck on memory I have based on it.
+				The managing process other than that is considered "Best FIT"
+
+Issue		There seems to be issues with the number of holes all the time, so I am not able to complete the whole project.
