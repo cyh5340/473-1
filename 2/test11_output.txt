@@ -1,0 +1,23 @@
+Allocating  void* a , size=1020
+Average hole size = 104755.2 [1047552/10]
+start of the chunk a: 0.003906 K
+End of the chunk a: 1.000000 K
+
+Allocating  void* b , size=524284
+Average hole size = 58140.4 [523264/9]
+start of the chunk b: 512.003906 K
+End of the chunk b: 1024.000000 K
+
+Allocating  void* c , size=262140
+Average hole size = 32640.0 [261120/8]
+start of the chunk c: 256.003906 K
+End of the chunk c: 512.000000 K
+
+Allocating  void* d , size=2044
+Average hole size = 37010.3 [259072/7]
+start of the chunk d: 2.003906 K
+End of the chunk d: 4.000000 K
+
+Allocating  void* e , size=262140
+Average hole size = 37010.3 [259072/7]
+This size can not be allocated!
