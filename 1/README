@@ -1,0 +1,17 @@
+name:
+	Crystal Ho
+contribution:
+	Crystal Ho: everything
+issues:
+	Failed to use linked list, so just replace it with struct array--- since there is at most 100 threads to be send in for testing
+	Finding a partner that can code is hard; should've just follow own schedule and not to delay for whatever reason.
+logic:
+	FCFS:
+		search for the least currentTime in the array and signal it
+		(they were all put to wait in the loop)
+	LRTF:
+		search for the least remainingTime in the array and signal it
+		(they were all put to wait in the loop)
+	PBF:
+		search for the least value in priority in the array and signal it
+		(they were all put to wait in the loop)
